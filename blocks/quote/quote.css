@@ -6,6 +6,18 @@
     margin: 1rem 0;
 }
 
+.block.quote.bg-red {
+    background-color: #e06b6b;
+}
+
+.block.quote.bg-green {
+    background-color: #a0ee92;
+}
+
+.block.quote.bg-blue {
+    background-color: #93c1e8;
+}
+
 .block.quote blockquote {
     margin: 16px;
     text-indent: 0;
