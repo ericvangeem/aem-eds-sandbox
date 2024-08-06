@@ -200,11 +200,11 @@
     "id": "quote",
     "fields": [
       {
-        "component": "select",
+        "component": "multiselect",
         "name": "classes",
         "value": "",
         "label": "Background Color",
-        "description": "The marquee background color",
+        "description": "The background color",
         "valueType": "string",
         "options": [
           {
