@@ -200,11 +200,11 @@
     "id": "quote",
     "fields": [
       {
-        "component": "multiselect",
+        "component": "select",
         "name": "classes",
         "value": "",
         "label": "Background Color",
-        "description": "The background color",
+        "description": "The background color (select one)",
         "valueType": "string",
         "options": [
           {
@@ -222,6 +222,56 @@
           {
             "name": "Blue",
             "value": "bg-blue"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Opacity",
+        "description": "Opacity of the background color (select one)",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "10%",
+            "value": "opacity-10"
+          },
+          {
+            "name": "20%",
+            "value": "opacity-20"
+          },
+          {
+            "name": "30%",
+            "value": "opacity-30"
+          },
+          {
+            "name": "40%",
+            "value": "opacity-40"
+          },
+          {
+            "name": "50%",
+            "value": "opacity-50"
+          },
+          {
+            "name": "60%",
+            "value": "opacity-60"
+          },
+          {
+            "name": "70%",
+            "value": "opacity-70"
+          },
+          {
+            "name": "80%",
+            "value": "opacity-80"
+          },
+          {
+            "name": "90%",
+            "value": "opacity-90"
           }
         ]
       },
