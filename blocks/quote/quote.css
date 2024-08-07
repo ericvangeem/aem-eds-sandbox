@@ -18,6 +18,15 @@
     background-color: #93c1e8;
 }
 
+
+.block.quote.font-bold {
+    font-weight: bold;
+}
+
+.block.quote.hide-underline {
+    background-color: transparent;
+}
+
 .block.quote blockquote {
     margin: 16px;
     text-indent: 0;

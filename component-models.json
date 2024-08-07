@@ -204,7 +204,7 @@
         "name": "classes",
         "value": "",
         "label": "Background Color",
-        "description": "The marquee background color",
+        "description": "The background color (select one)",
         "valueType": "string",
         "options": [
           {
@@ -222,6 +222,24 @@
           {
             "name": "Blue",
             "value": "bg-blue"
+          }
+        ]
+      },
+      {
+        "component": "multiselect",
+        "name": "author-options",
+        "value": "",
+        "label": "Author",
+        "description": "Style options for the author",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Bold",
+            "value": "font-bold"
+          },
+          {
+            "name": "Hide Underline",
+            "value": "hide-underline"
           }
         ]
       },
