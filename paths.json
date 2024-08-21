@@ -1,6 +1,8 @@
 {
   "mappings": [
     "/content/eric-eds-sample/:/",
-    "/content/eric-eds-sample/configuration:/.helix/config.json"
+    "/content/eric-eds-sample/configuration:/.helix/config.json",
+    "/content/eric-eds-sample/spreadsheet:/spreadsheet.json",
+    "/content/eric-eds-sample/query-index:/query-index.json"
   ]
 }
