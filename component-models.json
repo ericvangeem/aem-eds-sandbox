@@ -256,8 +256,22 @@
         "name": "author",
         "label": "Author",
         "value": ""
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "reference",
+        "label": "AEM Content Reference",
+        "value": ""
+      },
+      {
+        "component": "aem-experience-fragment",
+        "name": "picker",
+        "label": "Experience Fragment Picker",
+        "valueType": "string",
+        "variationName": "experienceFragmentVariation"
       }
     ]
-  }
-  
+  ]
+}
 ]
