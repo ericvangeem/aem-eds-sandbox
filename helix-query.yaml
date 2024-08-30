@@ -5,10 +5,10 @@ indices:
       - /**
     exclude:
       - /configuration/**
-      - /nav/**
-      - /footer/**
+      - /en/nav/**
+      - /en/footer/**
       - /metadata/**
-      - /fragments/**
+      - /en/fragments/**
       - /style-guide/**
       - /spreadsheets/**
     target: /query-index.json
