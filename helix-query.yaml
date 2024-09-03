@@ -42,7 +42,7 @@ indices:
         value: attribute(el, "content")
   articles:
     include:
-      - /articles/**
+      - /en/articles/**
     target: /article-index.json
     properties:
       lastModified:
