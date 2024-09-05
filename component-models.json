@@ -282,5 +282,24 @@
         "variationName": "experienceFragmentVariation"
       }
     ]
+  },
+  {
+    "id": "testquote",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "quote",
+        "value": "",
+        "label": "Quote",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author",
+        "value": ""
+      }
+    ]
   }
 ]
