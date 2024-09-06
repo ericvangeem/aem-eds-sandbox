@@ -313,31 +313,5 @@
         "value": ""
       }
     ]
-  },
-  {
-    "id": "accordion",
-    "fields": [
-      {
-        "component": "container",
-        "label": "Accordion",
-        "name": "accordion",
-        "valueType": "string",
-        "collapsible": true,
-        "fields": [
-          {
-            "component": "text-input",
-            "label": "Panel Title",
-            "name": "panelTitle",
-            "valueType": "string"
-          },
-          {
-            "component": "text-input",
-            "label": "Panel Body",
-            "name": "panelBody",
-            "valueType": "string"
-          }
-        ]
-      }
-    ]
   }
 ]
