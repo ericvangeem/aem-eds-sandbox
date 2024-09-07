@@ -23,7 +23,9 @@
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/title/v1/title",
-                "template": {}
+                "template": {
+                  "model": "title"
+                }
               }
             }
           }
@@ -47,7 +49,9 @@
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/button/v1/button",
-                "template": {}
+                "template": {
+                  "model": "button"
+                }
               }
             }
           }
@@ -65,7 +69,9 @@
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/section/v1/section",
-                "template": {}
+                "template": {
+                  "model": "section"
+                }
               }
             }
           }
@@ -76,36 +82,6 @@
       "title": "Blocks",
       "id": "blocks",
       "components": [
-        {
-          "title": "Columns",
-          "id": "columns",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/columns/v1/columns",
-                "template": {
-                  "columns": "2",
-                  "rows": "1"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Hero",
-          "id": "hero",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Hero",
-                  "model": "hero"
-                }
-              }
-            }
-          }
-        },
         {
           "title": "Cards",
           "id": "cards",
@@ -150,6 +126,21 @@
           }
         },
         {
+          "title": "Columns",
+          "id": "columns",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/columns/v1/columns",
+                "template": {
+                  "columns": "2",
+                  "rows": "1"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Fragment",
           "id": "fragment",
           "plugins": {
@@ -159,6 +150,21 @@
                 "template": {
                   "name": "Fragment",
                   "model": "fragment"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Hero",
+          "id": "hero",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero",
+                  "model": "hero"
                 }
               }
             }
@@ -175,25 +181,7 @@
                   "name": "Quote",
                   "model": "quote",
                   "quote": "<p>Think, McFly! Think!</p>",
-                  "author": "Biff Tannen",
-                  "reference": "/content/eric-eds-sample/index"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "testQuote",
-          "id": "testquote",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "TestQuote",
-                  "model": "testquote",
-                  "quote": "<p>Well done is better than well said.</p>",
-                  "author": "Benjamin Franklin"
+                  "author": "Biff Tannen"
                 }
               }
             }

@@ -1,0 +1,15 @@
+{
+    "definitions": [],
+    "models": [
+        {
+            "id": "page-metadata",
+            "fields": [
+                {
+                    "component": "date-time",
+                    "name": "publicationDate",
+                    "label": "Publiction Date"
+                }
+            ]
+        }
+    ]
+}
