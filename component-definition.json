@@ -97,7 +97,7 @@
                     "model": "bio-item",
                     "name": "Bio Item",
                     "image": "/content/dam/eric-eds-sample/low-code-way-to-developer-productivity.png",
-                    "description": "<p>Eric Van Geem, a distinguished CMS consultant, wrote this article.</p>"
+                    "text": "<p>Eric Van Geem, a distinguished CMS consultant, wrote this article.</p>"
                   }
                 }
               }
