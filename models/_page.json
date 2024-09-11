@@ -8,6 +8,22 @@
                     "component": "date-time",
                     "name": "publicationDate",
                     "label": "Publiction Date"
+                },
+                {
+                    "component": "select",
+                    "label": "Theme",
+                    "name": "select",
+                    "valueType": "string",
+                    "options": [
+                        {
+                            "name": "",
+                            "value": ""
+                        },
+                        {
+                            "name": "Article",
+                            "value": "article"
+                        }
+                    ]
                 }
             ]
         }
