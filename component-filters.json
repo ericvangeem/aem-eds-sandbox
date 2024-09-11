@@ -21,6 +21,12 @@
     ]
   },
   {
+    "id": "bio",
+    "components": [
+      "bio-item"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"

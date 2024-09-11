@@ -92,7 +92,28 @@
                 "template": {
                   "name": "Bio",
                   "filter": "bio",
-                  "model": "bio"
+                  "model": "bio",
+                  "item": {
+                    "model": "bio-item",
+                    "name": "Bio Item",
+                    "image": "/content/dam/eric-eds-sample/low-code-way-to-developer-productivity.png",
+                    "description": "<p>Eric Van Geem, a distinguished CMS consultant, wrote this article.</p>"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Bio Item",
+          "id": "bio-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Bio Item",
+                  "model": "bio-item"
                 }
               }
             }

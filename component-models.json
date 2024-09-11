@@ -139,6 +139,10 @@
   },
   {
     "id": "bio",
+    "fields": []
+  },
+  {
+    "id": "bio-item",
     "fields": [
       {
         "component": "reference",
