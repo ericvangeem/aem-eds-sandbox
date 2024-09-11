@@ -41,7 +41,34 @@
   "models": [
     {
       "id": "bio",
-      "fields": []
+      "fields": [
+        {
+          "component": "multiselect",
+          "name": "classes",
+          "value": "",
+          "label": "Styles",
+          "description": "Select zero to many styles",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Highlighted",
+              "value": "highlighted"
+            },
+            {
+              "name": "Shadow",
+              "value": "shadow"
+            },
+            {
+              "name": "Hide Author",
+              "value": "hide-author"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "bio-item",
