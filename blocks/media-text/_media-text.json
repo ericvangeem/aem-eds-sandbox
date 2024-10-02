@@ -33,6 +33,11 @@
       "id": "media-text",
       "fields": [
         {
+          "component": "tab",
+          "label": "Image",
+          "name": "tab1"
+        },
+        {
           "component": "reference",
           "valueType": "string",
           "name": "image",
@@ -47,6 +52,11 @@
           "label": "Image Alt Text",
           "required": true,
           "value": "Default alt"
+        },
+        {
+          "component": "tab",
+          "label": "Content",
+          "name": "tab2"
         },
         {
           "component": "reference",
@@ -98,7 +108,7 @@
           "label": "Primary CTA",
           "name": "mediaTextPrimaryCTAContainer",
           "valueType": "string",
-          "collapsible": true,
+          "collapsible": false,
           "fields": [
             {
               "component": "text",
@@ -128,7 +138,7 @@
           "label": "Secondary CTA",
           "name": "mediaTextSecondaryCTAContainer",
           "valueType": "string",
-          "collapsible": true,
+          "collapsible": false,
           "fields": [
             {
               "component": "aem-content",
@@ -152,6 +162,11 @@
               "value": "secondary"
             }
           ]
+        },
+        {
+          "component": "tab",
+          "label": "Styles",
+          "name": "tab3"
         },
         {
           "component": "select",
