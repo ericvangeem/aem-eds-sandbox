@@ -223,9 +223,11 @@
                   "mediaText_description": "<p>The body copy is optional lorem ipsum dolor sit amet consectetur. Quam in lobortis diam facilisis. Fermentum aliquet nec lacus aliquet sed sed sed libero.</p>",
                   "mediaText_cta1": "https://www.adobe.com",
                   "mediaText_cta1Text": "Primary CTA",
+                  "mediaText_cta1NewWindow": false,
                   "mediaText_cta1Type": "primary",
                   "mediaText_cta2": "https://www.adobe.com",
                   "mediaText_cta2Text": "Secondary CTA",
+                  "mediaText_cta2NewWindow": false,
                   "mediaText_cta2Type": "secondary",
                   "orientation": "image-left",
                   "theme": "theme-light"
