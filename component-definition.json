@@ -227,6 +227,7 @@
                   "mediaText_cta2": "https://www.adobe.com",
                   "mediaText_cta2Text": "Secondary CTA",
                   "mediaText_cta2Type": "secondary",
+                  "newField": "new value",
                   "orientation": "image-left",
                   "theme": "theme-light"
                 }

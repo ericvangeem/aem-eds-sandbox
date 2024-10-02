@@ -20,6 +20,7 @@
               "mediaText_cta2": "https://www.adobe.com",
               "mediaText_cta2Text": "Secondary CTA",
               "mediaText_cta2Type": "secondary",
+              "newField": "new value",
               "orientation": "image-left",
               "theme": "theme-light"
             }
@@ -47,6 +48,14 @@
           "label": "Image Alt Text",
           "required": true,
           "value": "Default alt"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "newField",
+          "label": "Test Field",
+          "required": true,
+          "placeholder": "enter a val here!"
         },
         {
           "component": "reference",

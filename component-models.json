@@ -293,6 +293,14 @@
         "value": "Default alt"
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "newField",
+        "label": "Test Field",
+        "required": true,
+        "placeholder": "enter a val here!"
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "icon",
