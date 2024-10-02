@@ -216,7 +216,15 @@
               "name": "Image Right",
               "value": "image-right"
             }
-          ]
+          ],
+          "condition": {
+            "===": [
+              {
+                "var": "half-image"
+              },
+              "half-image"
+            ]
+          }
         },
         {
           "component": "select",
