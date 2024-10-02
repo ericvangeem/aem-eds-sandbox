@@ -462,7 +462,7 @@
         "condition": {
           "===": [
             {
-              "var": "half-image"
+              "var": "classes"
             },
             "half-image"
           ]
