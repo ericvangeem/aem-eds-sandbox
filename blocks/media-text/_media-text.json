@@ -124,6 +124,13 @@
               "label": "CTA 1 Link"
             },
             {
+              "component": "boolean",
+              "valueType": "boolean",
+              "label": "Open in new window",
+              "name": "mediaText_cta1NewWindow",
+              "description": "When selected, the link will open in a new window"
+            },
+            {
               "component": "text",
               "valueType": "string",
               "name": "mediaText_cta1Type",
@@ -152,6 +159,13 @@
               "name": "mediaText_cta2Text",
               "label": "CTA 2 Link Text",
               "value": ""
+            },
+            {
+              "component": "boolean",
+              "valueType": "boolean",
+              "label": "Open in new window",
+              "name": "mediaText_cta2NewWindow",
+              "description": "When selected, the link will open in a new window"
             },
             {
               "component": "text",
