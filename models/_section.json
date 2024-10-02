@@ -46,7 +46,9 @@
         "columns",
         "fragment",
         "quote",
-        "bio"
+        "bio",
+        "media-text",
+        "new-block"
       ]
     }
   ]

@@ -17,7 +17,9 @@
       "columns",
       "fragment",
       "quote",
-      "bio"
+      "bio",
+      "media-text",
+      "new-block"
     ]
   },
   {
@@ -45,6 +47,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "new-block",
+    "components": [
+      "new-block-item"
     ]
   },
   {
