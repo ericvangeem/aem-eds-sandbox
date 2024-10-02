@@ -94,72 +94,62 @@
           "value": ""
         },
         {
-          "id": "mediaTextPrimaryCTAContainer",
+          "component": "container",
+          "label": "Primary CTA",
+          "name": "mediaTextPrimaryCTAContainer",
+          "valueType": "string",
+          "collapsible": true,
           "fields": [
             {
-              "component": "container",
-              "label": "Primary CTA",
-              "name": "mediaTextPrimaryCTAContainer",
+              "component": "text",
               "valueType": "string",
-              "collapsible": true,
-              "fields": [
-                {
-                  "component": "text",
-                  "valueType": "string",
-                  "name": "mediaText_cta1Text",
-                  "label": "CTA 1 Link Text",
-                  "value": ""
-                },
-                {
-                  "component": "aem-content",
-                  "valueType": "string",
-                  "name": "mediaText_cta1",
-                  "label": "CTA 1 Link"
-                },
-                {
-                  "component": "text",
-                  "valueType": "string",
-                  "name": "mediaText_cta1Type",
-                  "label": "CTA 1 Link Type",
-                  "hidden": true,
-                  "value": "primary"
-                }
-              ]
+              "name": "mediaText_cta1Text",
+              "label": "CTA 1 Link Text",
+              "value": ""
+            },
+            {
+              "component": "aem-content",
+              "valueType": "string",
+              "name": "mediaText_cta1",
+              "label": "CTA 1 Link"
+            },
+            {
+              "component": "text",
+              "valueType": "string",
+              "name": "mediaText_cta1Type",
+              "label": "CTA 1 Link Type",
+              "hidden": true,
+              "value": "primary"
             }
           ]
         },
         {
-          "id": "mediaTextSecondaryCTAContainer",
+          "component": "container",
+          "label": "Secondary CTA",
+          "name": "mediaTextSecondaryCTAContainer",
+          "valueType": "string",
+          "collapsible": true,
           "fields": [
             {
-              "component": "container",
-              "label": "Secondary CTA",
-              "name": "mediaTextSecondaryCTAContainer",
+              "component": "aem-content",
               "valueType": "string",
-              "collapsible": true,
-              "fields": [
-                {
-                  "component": "aem-content",
-                  "valueType": "string",
-                  "name": "mediaText_cta2",
-                  "label": "CTA 2 Link"
-                },
-                {
-                  "component": "text",
-                  "valueType": "string",
-                  "name": "mediaText_cta2Text",
-                  "label": "CTA 2 Link Text",
-                  "value": ""
-                },
-                {
-                  "component": "text",
-                  "valueType": "string",
-                  "name": "mediaText_cta2Type",
-                  "label": "CTA 2 Link Type",
-                  "hidden": true,
-                  "value": "secondary"
-                }
-              ]
+              "name": "mediaText_cta2",
+              "label": "CTA 2 Link"
+            },
+            {
+              "component": "text",
+              "valueType": "string",
+              "name": "mediaText_cta2Text",
+              "label": "CTA 2 Link Text",
+              "value": ""
+            },
+            {
+              "component": "text",
+              "valueType": "string",
+              "name": "mediaText_cta2Type",
+              "label": "CTA 2 Link Type",
+              "hidden": true,
+              "value": "secondary"
             }
           ]
         },
