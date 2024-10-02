@@ -37,13 +37,15 @@
           "valueType": "string",
           "name": "image",
           "label": "Image",
+          "required": true,
           "multi": false
         },
         {
-          "component": "text-input",
+          "component": "text",
           "valueType": "string",
           "name": "imageAlt",
           "label": "Image Alt Text",
+          "required": true,
           "value": "Default alt"
         },
         {
@@ -54,7 +56,7 @@
           "multi": false
         },
         {
-          "component": "text-input",
+          "component": "text",
           "valueType": "string",
           "name": "mediaText_eyebrow",
           "label": "Eyebrow",
@@ -62,11 +64,12 @@
           "description": "ⓘ Eyebrow Text"
         },
         {
-          "component": "text-input",
+          "component": "text",
           "valueType": "string",
           "name": "mediaText_title",
-          "label": "Heading",
+          "label": "Title",
           "value": "",
+          "required": true,
           "description": "ⓘ Heading (H2) Text"
         },
         {
@@ -87,7 +90,7 @@
           "component": "richtext",
           "valueType": "string",
           "name": "mediaText_description",
-          "label": "Description",
+          "label": "Body",
           "value": ""
         },
         {
@@ -97,11 +100,19 @@
           "label": "CTA 1 Link"
         },
         {
-          "component": "text-input",
+          "component": "text",
           "valueType": "string",
           "name": "mediaText_cta1Text",
           "label": "CTA 1 Link Text",
           "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "mediaText_cta1Type",
+          "label": "CTA 1 Link Type",
+          "hidden": true,
+          "value": "primary"
         },
         {
           "component": "aem-content",
@@ -110,11 +121,19 @@
           "label": "CTA 2 Link"
         },
         {
-          "component": "text-input",
+          "component": "text",
           "valueType": "string",
           "name": "mediaText_cta2Text",
           "label": "CTA 2 Link Text",
           "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "mediaText_cta2Type",
+          "label": "CTA 2 Link Type",
+          "hidden": true,
+          "value": "secondary"
         },
         {
           "component": "select",
