@@ -6,7 +6,7 @@
     "/content/eric-eds-sample/spreadsheet:/spreadsheet.json",
     "/content/eric-eds-sample/query-index:/query-index.json",
     "/content/eric-eds-sample/article-index.json:/article-index.json",
-    "/content/dam/eric-eds-sample/icons/:/icons"
+    "/content/dam/eric-eds-sample/icons/:/icons/"
   ],
   "includes": [
     "/content/dam/eric-eds-sample/icons/"
