@@ -1,6 +1,7 @@
 {
   "mappings": [
     "/content/dam/eric-eds-sample/icons/:/icons/",
+    "/content/dam/eric-eds-sample/icons2/:/icons2/",
     "/content/eric-eds-sample/:/",
     "/content/eric-eds-sample/configuration:/.helix/config.json",
     "/content/eric-eds-sample/en/metadata:/metadata.json",
@@ -9,6 +10,7 @@
     "/content/eric-eds-sample/article-index.json:/article-index.json"
   ],
   "includes": [
-    "/content/dam/eric-eds-sample/icons/"
+    "/content/dam/eric-eds-sample/icons/",
+    "/content/dam/eric-eds-sample/icons2/"
   ]
 }
