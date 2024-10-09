@@ -1,6 +1,6 @@
 {
   "mappings": [
-    "/content/dam/eric-eds-sample/icons/:/assets/",
+    "/content/dam/eric-eds-sample/icons/:/icons/",
     "/content/eric-eds-sample/:/",
     "/content/eric-eds-sample/configuration:/.helix/config.json",
     "/content/eric-eds-sample/en/metadata:/metadata.json",
