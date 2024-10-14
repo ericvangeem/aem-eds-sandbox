@@ -6,6 +6,7 @@
     "/content/eric-eds-sample/configuration:/.helix/config.json",
     "/content/eric-eds-sample/en/metadata:/metadata.json",
     "/content/eric-eds-sample/spreadsheet:/spreadsheet.json",
+    "/content/eric-eds-sample/dev-spreadsheet:/spreadsheet.json?sheet=dev",
     "/content/eric-eds-sample/query-index:/query-index.json",
     "/content/eric-eds-sample/article-index.json:/article-index.json"
   ],
