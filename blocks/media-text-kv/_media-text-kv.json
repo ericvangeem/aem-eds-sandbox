@@ -1,0 +1,251 @@
+{
+  "definitions": [
+    {
+      "title": "Media Text KV",
+      "id": "media-text-kv",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Media Text KV",
+              "model": "media-text-kv",
+              "key-value": true,
+              "eyebrow": "eyebrow TREATMENT",
+              "title": "An insightful headline can wrap here",
+              "titleType": "h2",
+              "description": "<p>The body copy is optional lorem ipsum dolor sit amet consectetur. Quam in lobortis diam facilisis. Fermentum aliquet nec lacus aliquet sed sed sed libero.</p>",
+              "cta1": "https://www.adobe.com",
+              "cta1Text": "Primary CTA",
+              "cta1NewWindow": false,
+              "cta1Type": "primary",
+              "cta2": "https://www.adobe.com",
+              "cta2Text": "Secondary CTA",
+              "cta2NewWindow": false,
+              "cta2Type": "secondary",
+              "orientation": "image-left",
+              "theme": "theme-light"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "media-text-kv",
+      "fields": [
+        {
+          "component": "tab",
+          "label": "Image",
+          "name": "tab1"
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "required": true,
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "imageAlt",
+          "label": "Image Alt Text",
+          "required": true,
+          "value": "Default alt"
+        },
+        {
+          "component": "tab",
+          "label": "Content",
+          "name": "tab2"
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "icon",
+          "label": "Icon",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "mediaText_eyebrow",
+          "label": "Eyebrow",
+          "value": "",
+          "description": "ⓘ Eyebrow Text"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "mediaText_title",
+          "label": "Title",
+          "value": "",
+          "required": true,
+          "description": "ⓘ Heading (H2) Text"
+        },
+        {
+          "component": "select",
+          "label": "Title Type",
+          "name": "mediaText_titleType",
+          "valueType": "string",
+          "hidden": true,
+          "value": "h2",
+          "options": [
+            {
+              "name": "H2",
+              "value": "h2"
+            }
+          ]
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "mediaText_description",
+          "label": "Body",
+          "value": ""
+        },
+        {
+          "component": "container",
+          "label": "Primary CTA",
+          "name": "mediaTextPrimaryCTAContainer",
+          "valueType": "string",
+          "collapsible": false,
+          "fields": [
+            {
+              "component": "text",
+              "valueType": "string",
+              "name": "mediaText_cta1Text",
+              "label": "CTA 1 Link Text",
+              "value": ""
+            },
+            {
+              "component": "aem-content",
+              "valueType": "string",
+              "name": "mediaText_cta1",
+              "label": "CTA 1 Link"
+            },
+            {
+              "component": "boolean",
+              "valueType": "boolean",
+              "label": "Open in new window",
+              "name": "mediaText_cta1NewWindow",
+              "description": "When selected, the link will open in a new window"
+            },
+            {
+              "component": "text",
+              "valueType": "string",
+              "name": "mediaText_cta1Type",
+              "label": "CTA 1 Link Type",
+              "hidden": true,
+              "value": "primary"
+            }
+          ]
+        },
+        {
+          "component": "container",
+          "label": "Secondary CTA",
+          "name": "mediaTextSecondaryCTAContainer",
+          "valueType": "string",
+          "collapsible": false,
+          "fields": [
+            {
+              "component": "aem-content",
+              "valueType": "string",
+              "name": "mediaText_cta2",
+              "label": "CTA 2 Link"
+            },
+            {
+              "component": "text",
+              "valueType": "string",
+              "name": "mediaText_cta2Text",
+              "label": "CTA 2 Link Text",
+              "value": ""
+            },
+            {
+              "component": "boolean",
+              "valueType": "boolean",
+              "label": "Open in new window",
+              "name": "mediaText_cta2NewWindow",
+              "description": "When selected, the link will open in a new window"
+            },
+            {
+              "component": "text",
+              "valueType": "string",
+              "name": "mediaText_cta2Type",
+              "label": "CTA 2 Link Type",
+              "hidden": true,
+              "value": "secondary"
+            }
+          ]
+        },
+        {
+          "component": "tab",
+          "label": "Styles",
+          "name": "tab3"
+        },
+        {
+          "component": "select",
+          "label": "Variation",
+          "name": "classes",
+          "valueType": "string",
+          "value": "half-image",
+          "options": [
+            {
+              "name": "50 / 50 (Half Image)",
+              "value": "half-image"
+            },
+            {
+              "name": "100 / 50 (Full Image)",
+              "value": "full-image"
+            }
+          ]
+        },
+        {
+          "component": "select",
+          "label": "Orientation",
+          "name": "orientation",
+          "valueType": "string",
+          "value": "image-left",
+          "options": [
+            {
+              "name": "Image Left",
+              "value": "image-left"
+            },
+            {
+              "name": "Image Right",
+              "value": "image-right"
+            }
+          ],
+          "condition": {
+            "===": [
+              {
+                "var": "classes"
+              },
+              "half-image"
+            ]
+          }
+        },
+        {
+          "component": "select",
+          "label": "Theme",
+          "name": "theme",
+          "valueType": "string",
+          "value": "theme-light",
+          "options": [
+            {
+              "name": "Light",
+              "value": "theme-light"
+            },
+            {
+              "name": "Dark",
+              "value": "theme-dark"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

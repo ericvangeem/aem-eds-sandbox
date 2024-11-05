@@ -48,6 +48,7 @@
         "quote",
         "bio",
         "media-text",
+        "media-text-kv",
         "new-block"
       ]
     }
