@@ -312,7 +312,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "mediaText_eyebrow",
+        "name": "eyebrow",
         "label": "Eyebrow",
         "value": "",
         "description": "ⓘ Eyebrow Text"
@@ -320,7 +320,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "mediaText_title",
+        "name": "title",
         "label": "Title",
         "value": "",
         "required": true,
@@ -329,7 +329,7 @@
       {
         "component": "select",
         "label": "Title Type",
-        "name": "mediaText_titleType",
+        "name": "titleType",
         "valueType": "string",
         "hidden": true,
         "value": "h2",
@@ -343,7 +343,7 @@
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "mediaText_description",
+        "name": "description",
         "label": "Body",
         "value": ""
       },
@@ -357,27 +357,27 @@
           {
             "component": "text",
             "valueType": "string",
-            "name": "mediaText_cta1Text",
+            "name": "cta1Text",
             "label": "CTA 1 Link Text",
             "value": ""
           },
           {
             "component": "aem-content",
             "valueType": "string",
-            "name": "mediaText_cta1",
+            "name": "cta1",
             "label": "CTA 1 Link"
           },
           {
             "component": "boolean",
             "valueType": "boolean",
             "label": "Open in new window",
-            "name": "mediaText_cta1NewWindow",
+            "name": "cta1NewWindow",
             "description": "When selected, the link will open in a new window"
           },
           {
             "component": "text",
             "valueType": "string",
-            "name": "mediaText_cta1Type",
+            "name": "cta1Type",
             "label": "CTA 1 Link Type",
             "hidden": true,
             "value": "primary"
@@ -394,13 +394,13 @@
           {
             "component": "aem-content",
             "valueType": "string",
-            "name": "mediaText_cta2",
+            "name": "cta2",
             "label": "CTA 2 Link"
           },
           {
             "component": "text",
             "valueType": "string",
-            "name": "mediaText_cta2Text",
+            "name": "cta2Text",
             "label": "CTA 2 Link Text",
             "value": ""
           },
@@ -408,13 +408,13 @@
             "component": "boolean",
             "valueType": "boolean",
             "label": "Open in new window",
-            "name": "mediaText_cta2NewWindow",
+            "name": "cta2NewWindow",
             "description": "When selected, the link will open in a new window"
           },
           {
             "component": "text",
             "valueType": "string",
-            "name": "mediaText_cta2Type",
+            "name": "cta2Type",
             "label": "CTA 2 Link Type",
             "hidden": true,
             "value": "secondary"
