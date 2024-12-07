@@ -17,6 +17,7 @@
       "columns",
       "fragment",
       "quote",
+      "quoteblock",
       "bio",
       "media-text",
       "media-text-kv",
@@ -54,6 +55,12 @@
     "id": "new-block",
     "components": [
       "new-block-item"
+    ]
+  },
+  {
+    "id": "cards",
+    "components": [
+      "card"
     ]
   },
   {

@@ -46,6 +46,7 @@
         "columns",
         "fragment",
         "quote",
+        "quoteblock",
         "bio",
         "media-text",
         "media-text-kv",
