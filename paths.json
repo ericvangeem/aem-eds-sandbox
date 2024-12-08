@@ -12,6 +12,6 @@
   ],
   "includes": [
     "/content/dam/aem-eds-sandbox/icons/",
-    "/content/dam/aem-eds-sandbox/icons2/"
+    "/content/aem-eds-sandbox/"
   ]
 }
