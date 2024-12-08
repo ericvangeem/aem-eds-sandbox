@@ -1,17 +1,17 @@
 {
   "mappings": [
-    "/content/dam/eric-eds-sample/icons/:/icons/",
-    "/content/dam/eric-eds-sample/icons2/:/icons2/",
-    "/content/eric-eds-sample/:/",
-    "/content/eric-eds-sample/configuration:/.helix/config.json",
-    "/content/eric-eds-sample/en/metadata:/metadata.json",
-    "/content/eric-eds-sample/spreadsheet:/spreadsheet.json",
-    "/content/eric-eds-sample/dev-spreadsheet:/spreadsheet.json?sheet=dev",
-    "/content/eric-eds-sample/query-index:/query-index.json",
-    "/content/eric-eds-sample/article-index.json:/article-index.json"
+    "/content/dam/aem-eds-sandbox/icons/:/icons/",
+    "/content/dam/aem-eds-sandbox/icons2/:/icons2/",
+    "/content/aem-eds-sandbox/:/",
+    "/content/aem-eds-sandbox/configuration:/.helix/config.json",
+    "/content/aem-eds-sandbox/en/metadata:/metadata.json",
+    "/content/aem-eds-sandbox/spreadsheet:/spreadsheet.json",
+    "/content/aem-eds-sandbox/dev-spreadsheet:/spreadsheet.json?sheet=dev",
+    "/content/aem-eds-sandbox/query-index:/query-index.json",
+    "/content/aem-eds-sandbox/article-index.json:/article-index.json"
   ],
   "includes": [
-    "/content/dam/eric-eds-sample/icons/",
-    "/content/dam/eric-eds-sample/icons2/"
+    "/content/dam/aem-eds-sandbox/icons/",
+    "/content/dam/aem-eds-sandbox/icons2/"
   ]
 }

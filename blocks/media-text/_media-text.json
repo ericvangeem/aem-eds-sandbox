@@ -61,28 +61,17 @@
           "name": "tab2"
         },
         {
-          "component": "reference",
-          "valueType": "string",
-          "name": "icon",
-          "label": "Icon",
-          "multi": false
-        },
-        {
           "component": "text",
           "valueType": "string",
           "name": "mediaText_eyebrow",
-          "label": "Eyebrow",
-          "value": "",
-          "description": "ⓘ Eyebrow Text"
+          "label": "Eyebrow"
         },
         {
           "component": "text",
           "valueType": "string",
           "name": "mediaText_title",
           "label": "Title",
-          "value": "",
-          "required": true,
-          "description": "ⓘ Heading (H2) Text"
+          "required": true
         },
         {
           "component": "select",
@@ -101,7 +90,7 @@
         {
           "component": "richtext",
           "valueType": "string",
-          "name": "mediaText_description",
+          "name": "description",
           "label": "Body",
           "value": ""
         },
@@ -124,13 +113,6 @@
               "valueType": "string",
               "name": "mediaText_cta1",
               "label": "CTA 1 Link"
-            },
-            {
-              "component": "boolean",
-              "valueType": "boolean",
-              "label": "Open in new window",
-              "name": "mediaText_cta1NewWindow",
-              "description": "When selected, the link will open in a new window"
             },
             {
               "component": "text",
@@ -163,83 +145,12 @@
               "value": ""
             },
             {
-              "component": "boolean",
-              "valueType": "boolean",
-              "label": "Open in new window",
-              "name": "mediaText_cta2NewWindow",
-              "description": "When selected, the link will open in a new window"
-            },
-            {
               "component": "text",
               "valueType": "string",
               "name": "mediaText_cta2Type",
               "label": "CTA 2 Link Type",
               "hidden": true,
               "value": "secondary"
-            }
-          ]
-        },
-        {
-          "component": "tab",
-          "label": "Styles",
-          "name": "tab3"
-        },
-        {
-          "component": "select",
-          "label": "Variation",
-          "name": "classes",
-          "valueType": "string",
-          "value": "half-image",
-          "options": [
-            {
-              "name": "50 / 50 (Half Image)",
-              "value": "half-image"
-            },
-            {
-              "name": "100 / 50 (Full Image)",
-              "value": "full-image"
-            }
-          ]
-        },
-        {
-          "component": "select",
-          "label": "Orientation",
-          "name": "orientation",
-          "valueType": "string",
-          "value": "image-left",
-          "options": [
-            {
-              "name": "Image Left",
-              "value": "image-left"
-            },
-            {
-              "name": "Image Right",
-              "value": "image-right"
-            }
-          ],
-          "condition": {
-            "===": [
-              {
-                "var": "classes"
-              },
-              "half-image"
-            ]
-          }
-        },
-        {
-          "component": "select",
-          "label": "Theme",
-          "name": "theme",
-          "valueType": "string",
-          "value": "theme-light",
-          "options": [
-            {
-              "name": "Light",
-              "value": "theme-light"
-            },
-            {
-              "name": "Dark",
-              "value": "theme-dark"
             }
           ]
         }
