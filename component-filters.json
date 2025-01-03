@@ -21,7 +21,8 @@
       "bio",
       "media-text",
       "media-text-kv",
-      "new-block"
+      "new-block",
+      "custom-asset"
     ]
   },
   {
