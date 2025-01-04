@@ -6,6 +6,7 @@
     "/content/aem-eds-sandbox/configuration:/.helix/config.json",
     "/content/aem-eds-sandbox/en/metadata:/metadata.json",
     "/content/aem-eds-sandbox/spreadsheet:/spreadsheet.json",
+    "/content/aem-eds-sandbox/form:/form.json",
     "/content/aem-eds-sandbox/dev-spreadsheet:/spreadsheet.json?sheet=dev",
     "/content/aem-eds-sandbox/query-index:/query-index.json",
     "/content/aem-eds-sandbox/article-index.json:/article-index.json"
