@@ -246,6 +246,13 @@
         "value": "",
         "label": "Form JSON URL",
         "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "submitUrl",
+        "value": "",
+        "label": "Submit URL",
+        "valueType": "string"
       }
     ]
   },
