@@ -1,8 +1,5 @@
 {
-  "repoNames": [
-    "delivery-p8756-e988970.adobeaemcloud.com"
-  ],
- "aemTierType": [
+  "aemTierType": [
       "delivery"
   ],
   "repositoryId": "delivery-p8756-e988970.adobeaemcloud.com"
