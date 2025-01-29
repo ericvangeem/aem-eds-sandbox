@@ -4,6 +4,7 @@
     "/content/dam/aem-eds-sandbox/icons2/:/icons2/",
     "/content/aem-eds-sandbox/:/",
     "/content/aem-eds-sandbox/configuration:/.helix/config.json",
+    "/content/aem-eds-sandbox/headers:/.helix/headers.json",
     "/content/aem-eds-sandbox/en/metadata:/metadata.json",
     "/content/aem-eds-sandbox/spreadsheet:/spreadsheet.json",
     "/content/aem-eds-sandbox/form:/form.json",
