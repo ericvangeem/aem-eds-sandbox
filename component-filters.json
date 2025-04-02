@@ -27,12 +27,6 @@
     ]
   },
   {
-    "id": "bio",
-    "components": [
-      "bio-item"
-    ]
-  },
-  {
     "id": "cards",
     "components": [
       "card"
@@ -51,18 +45,6 @@
       "image",
       "button",
       "title"
-    ]
-  },
-  {
-    "id": "new-block",
-    "components": [
-      "new-block-item"
-    ]
-  },
-  {
-    "id": "cards",
-    "components": [
-      "card"
     ]
   },
   {

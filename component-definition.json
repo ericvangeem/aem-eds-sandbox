@@ -83,43 +83,6 @@
       "id": "blocks",
       "components": [
         {
-          "title": "Bio",
-          "id": "bio",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Bio",
-                  "filter": "bio",
-                  "model": "bio",
-                  "item": {
-                    "model": "bio-item",
-                    "name": "Bio Item",
-                    "image": "/content/dam/eric-eds-sample/low-code-way-to-developer-productivity.png",
-                    "text": "<p>Eric Van Geem, a distinguished CMS consultant, wrote this article.</p>"
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Bio Item",
-          "id": "bio-item",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Bio Item",
-                  "model": "bio-item"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Cards",
           "id": "cards",
           "plugins": {
@@ -224,102 +187,6 @@
           }
         },
         {
-          "title": "Media Text KV",
-          "id": "media-text-kv",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Media Text KV",
-                  "model": "media-text-kv",
-                  "key-value": true,
-                  "eyebrow": "eyebrow TREATMENT",
-                  "title": "An insightful headline can wrap here",
-                  "titleType": "h2",
-                  "description": "<p>The body copy is optional lorem ipsum dolor sit amet consectetur. Quam in lobortis diam facilisis. Fermentum aliquet nec lacus aliquet sed sed sed libero.</p>",
-                  "cta1": "https://www.adobe.com",
-                  "cta1Text": "Primary CTA",
-                  "cta1NewWindow": false,
-                  "cta1Type": "primary",
-                  "cta2": "https://www.adobe.com",
-                  "cta2Text": "Secondary CTA",
-                  "cta2NewWindow": false,
-                  "cta2Type": "secondary",
-                  "orientation": "image-left",
-                  "theme": "theme-light"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Media Text",
-          "id": "media-text",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Media Text",
-                  "model": "media-text",
-                  "mediaText_eyebrow": "eyebrow TREATMENT",
-                  "mediaText_title": "An insightful headline can wrap here",
-                  "mediaText_titleType": "h2",
-                  "mediaText_description": "<p>The body copy is optional lorem ipsum dolor sit amet consectetur. Quam in lobortis diam facilisis. Fermentum aliquet nec lacus aliquet sed sed sed libero.</p>",
-                  "mediaText_cta1": "https://www.adobe.com",
-                  "mediaText_cta1Text": "Primary CTA",
-                  "mediaText_cta1NewWindow": false,
-                  "mediaText_cta1Type": "primary",
-                  "mediaText_cta2": "https://www.adobe.com",
-                  "mediaText_cta2Text": "Secondary CTA",
-                  "mediaText_cta2NewWindow": false,
-                  "mediaText_cta2Type": "secondary",
-                  "orientation": "image-left",
-                  "theme": "theme-light"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "New Block",
-          "id": "new-block",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "New Block",
-                  "filter": "new-block",
-                  "model": "new-block",
-                  "item": {
-                    "model": "new-block-item",
-                    "name": "New Block Item",
-                    "image": "/content/dam/eric-eds-sample/low-code-way-to-developer-productivity.png",
-                    "text": "<p>Eric Van Geem, a distinguished CMS consultant, wrote this article.</p>"
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "New Block Item",
-          "id": "new-block-item",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "New Block Item",
-                  "model": "new-block-item"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Quote",
           "id": "quote",
           "plugins": {
@@ -329,23 +196,6 @@
                 "template": {
                   "name": "Quote",
                   "model": "quote",
-                  "quote": "<p>Think, McFly! Think!</p>",
-                  "author": "Biff Tannen"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Quote Block",
-          "id": "quoteblock",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Quote Block",
-                  "model": "quoteblock",
                   "quote": "<p>Think, McFly! Think!</p>",
                   "author": "Biff Tannen"
                 }
