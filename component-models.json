@@ -250,7 +250,10 @@
         "valueType": "string",
         "name": "image",
         "label": "Image",
-        "multi": false
+        "multi": false,
+        "validation": {
+          "rootPath": "/content/dam/aem-eds-sandbox"
+        }
       },
       {
         "component": "text",
