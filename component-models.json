@@ -272,24 +272,6 @@
         ]
       },
       {
-        "component": "multiselect",
-        "name": "author-options",
-        "value": "",
-        "label": "Author",
-        "description": "Style options for the author",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Bold",
-            "value": "font-bold"
-          },
-          {
-            "name": "Hide Underline",
-            "value": "hide-underline"
-          }
-        ]
-      },
-      {
         "component": "richtext",
         "name": "quote",
         "value": "",
@@ -302,20 +284,6 @@
         "name": "author",
         "label": "Author",
         "value": ""
-      },
-      {
-        "component": "aem-content",
-        "valueType": "string",
-        "name": "reference",
-        "label": "AEM Content Reference",
-        "value": ""
-      },
-      {
-        "component": "aem-experience-fragment",
-        "name": "picker",
-        "label": "Experience Fragment Picker",
-        "valueType": "string",
-        "variationName": "experienceFragmentVariation"
       }
     ]
   },
