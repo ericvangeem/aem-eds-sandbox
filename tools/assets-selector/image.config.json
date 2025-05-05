@@ -1,11 +1,9 @@
 {
   "aemTierType": [
-      "delivery",
-      "author"
+      "delivery"
   ],
   "repoNames": [
-    "delivery-p8756-e988970.adobeaemcloud.com",
-    "author-p8756-e988970.adobeaemcloud.com"
+    "delivery-p8756-e988970.adobeaemcloud.com"
   ],
   "expiryOptions": {
       "allowSelectionAndDrag": false,
