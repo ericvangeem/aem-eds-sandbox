@@ -10,6 +10,7 @@
   "expiryOptions": {
       "allowSelectionAndDrag": false
   },
+  "alwaysUseDMDelivery": true,
   "filterSchema": [
     {
       "fields": [
